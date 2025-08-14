@@ -3,6 +3,8 @@ The introduction and code of Dinety User Interface
 
 > [简体中文](./README_zh.md)
 
+**Go to the `code page` to view the implementation code**
+
 ---
 
 This document presents **Dinety Team's core concepts, exploratory directions, and design philosophy** in the field of User Interface (Hereinafter referred to as UI) design. These principles **stem from rigorous research and innovative thinking, outlining the user experience vision we aspire to achieve.**
