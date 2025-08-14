@@ -1,4 +1,5 @@
 # Dinety-User-Interface
+
 The introduction and code of Dinety User Interface
 
 > [简体中文](./README_zh.md)
@@ -38,19 +39,6 @@ Our code ensures:
 We implement **screen-edge curvature measurement** to dynamically **customize UI components** based on **device-specific screen angles**, ensuring optimal visual alignment.  
 
 **The Dinety Team is confident our UI design will deliver an enhanced gaming experience with superior visual presentation.We are persevering and determined to create a satisfying UI!**
-
----
-
-# Legal Notice
-**Permitted Use(Including but not limited to):**  
-  You may use, modify, and distribute this UI for:  
-- All action for personal purposes  
-- Non-commercial open-source projects   
-
-**Commercial Restrictions:**  
-**All commercial use is expressly prohibited(Including but not limited to):**
-- Paid services or subscriptions  
-- Advertising-funded products  
 
 ---
 
