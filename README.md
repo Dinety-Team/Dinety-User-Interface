@@ -3,6 +3,8 @@ The introduction and code of Dinety User Interface
 
 > [简体中文](./README_zh.md)
 
+---
+
 **Go to the `code page` to view the implementation code**
 
 ---
