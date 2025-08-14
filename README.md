@@ -21,7 +21,7 @@ This document presents **Dinety Team's core concepts, exploratory directions, an
 ## Innovative 3D UI Implementation  
 We will integrate **dynamically flipping 3D models** directly into the game's UI. These models are crafted in **Blender** and seamlessly embedded within **Unity's 3D environment**, with operational logic driven by custom code.  
 
-## Breakthrough Visual Design  
+## Visual Design  
 - **Note-hit effects** merge organically with backgrounds using a **ripple propagation technique**, creating memorable impressions while **eliminating visual dissonance**.  
 - This **pioneering approach** establishes a new standard for visual design in rhythm games.  
 ## UI animation
