@@ -4,6 +4,7 @@ The introduction and code of Dinety User Interface
 > [简体中文](./README_zh.md)
 
 ---
+
 This document presents **Dinety Team's core concepts, exploratory directions, and design philosophy** in the field of User Interface (Hereinafter referred to as UI) design. These principles **stem from rigorous research and innovative thinking, outlining the user experience vision we aspire to achieve.**
 
 **Key Clarifications:**
@@ -17,19 +18,19 @@ This document presents **Dinety Team's core concepts, exploratory directions, an
 
 ---
 
-### **Innovative 3D UI Implementation**  
+## Innovative 3D UI Implementation  
 We will integrate **dynamically flipping 3D models** directly into the game's UI. These models are crafted in **Blender** and seamlessly embedded within **Unity's 3D environment**, with operational logic driven by custom code.  
 
-### **Breakthrough Visual Design**  
+## Breakthrough Visual Design  
 - **Note-hit effects** merge organically with backgrounds using a **ripple propagation technique**, creating memorable impressions while **eliminating visual dissonance**.  
 - This **pioneering approach** establishes a new standard for visual design in rhythm games.  
-### **UI animation**
+## UI animation
 Our code ensures:  
 1. **Seamless integration/decomposition** of UI models  
 2. **Fluid animations** maintained across transitions  
 3. **Harmonized visual styles** resolving clashes between disparate UI elements  
 
-### **Adaptive Display Technology**  
+## Adaptive Display Technology  
 We implement **screen-edge curvature measurement** to dynamically **customize UI components** based on **device-specific screen angles**, ensuring optimal visual alignment.  
 
 **The Dinety Team is confident our UI design will deliver an enhanced gaming experience with superior visual presentation.We are persevering and determined to create a satisfying UI!**
