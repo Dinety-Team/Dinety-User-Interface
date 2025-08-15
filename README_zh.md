@@ -43,4 +43,8 @@ Dinety用户界面的技术说明与实现方案
 
 ---
 
-**User Interface Framework (c) 2025 Dinety Team**  
+请根据[许可证](LICENSE_zh.md)的使用条例使用此UI
+
+---
+
+**Dinety User Interface Framework (c) 2025 Dinety Team**  
