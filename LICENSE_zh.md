@@ -1,6 +1,6 @@
 ## MIT 许可证
 
-**版权所有 (c) 2025 Dinety Team**
+Dinety User Interface Copyright (c) 2025 Dinety Team
 
 特此免费授予任何获得本软件及相关文档文件（以下简称“软件”）副本的人，  
 无限制地处理本软件的权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售  
