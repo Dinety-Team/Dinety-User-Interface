@@ -1,1 +1,1 @@
-# Color Grading Standard
+### Dinety Color Grading Standard
