@@ -1,45 +1,54 @@
-# Dinety-User-Interface
+## Dinety User Interface
 
-The introduction and code of Dinety User Interface
+Technical Notes & Implementation Plan for Dinety UI  
 
-> [简体中文](./README_zh.md)
-
----
-
-**Go to the `code page` to view the implementation code**
+> [简体中文](./README_zh.md)  
 
 ---
 
-This document presents **Dinety Team's core concepts, exploratory directions, and design philosophy** in the field of User Interface (Hereinafter referred to as UI) design. These principles **stem from rigorous research and innovative thinking, outlining the user experience vision we aspire to achieve.**
-
-**Key Clarifications:**
-
-1.  **Forward-Looking Reference Value:**  
-    All design concepts, schematic proposals, and interaction approaches described herein **represent provisional exploratory outcomes**. They embody our current cutting-edge thinking and hold significant referential value, **yet do not constitute finalized implementation plans.**
->     
-2.  **Subject to Official Release:**  
-    **The ultimate design presentation and functional implementation of all product interfaces will be exclusively determined by our subsequently officially released versions.** During development, design details may undergo necessary iterations and refinements based on technical feasibility, user testing feedback, and evolving business requirements.
-    **We will dedicate our utmost technical expertise and development resources to deliver UI solutions that exceed user expectations, striving to create fluid, intuitive, and visually engaging experiences.**
+Visit the `Code` page to browse the source.  
 
 ---
 
-## Innovative 3D UI Implementation  
-We will integrate **dynamically flipping 3D models** directly into the game's UI. These models are crafted in **Blender** and seamlessly embedded within **Unity's 3D environment**, with operational logic driven by custom code.  
+This document explains the core ideas, implementation roadmap and design language of the Dinety User Interface (hereinafter referred to as “UI”).
 
-## Visual Design  
-- **Note-hit effects** merge organically with backgrounds using a **ripple propagation technique**, creating memorable impressions while **eliminating visual dissonance**.  
-- This **pioneering approach** establishes a new standard for visual design in rhythm games.  
-## UI animation
-Our code ensures:  
-1. **Seamless integration/decomposition** of UI models  
-2. **Fluid animations** maintained across transitions  
-3. **Harmonized visual styles** resolving clashes between disparate UI elements  
-
-## Adaptive Display Technology  
-We implement **screen-edge curvature measurement** to dynamically **customize UI components** based on **device-specific screen angles**, ensuring optimal visual alignment.  
-
-**The Dinety Team is confident our UI design will deliver an enhanced gaming experience with superior visual presentation.We are persevering and determined to create a satisfying UI!**
+The feature set shown here reflects the current research status; it is not the final release. Always refer to the official shipped version for production behavior.
 
 ---
 
-**User Interface Framework Copyright (c) 2025 Dinety Team**
+## 3D-UI Implementation
+
+We use dynamically flipping 3-D models as the game’s UI elements.
+
+All models are created in Blender and imported into Unity, where the UI itself is built with Unity’s 3-D mode.
+
+## Touch Feedback (Visual)
+
+Hit-effects for notes resemble water ripples. The ripple integrates with the background scenery through smooth, interpolated animations that give players a silky visual feel while preserving overall picture harmony.
+
+The same technique is applied to tools such as the Dinety chart editor, ensuring consistent real-world touch feedback.
+
+Players can adjust the maximum ripple size in Settings.
+
+## UI Animation Engine
+
+To deliver a premium visual experience we continuously refine UI layout, interaction and motion. Our goals are:
+
+- System-level animation smoothness  
+- Compliance with our [UI Color-Grading Standard](./ColorGradingStandard.md) to guarantee beautiful and correct color reproduction
+
+## UI “Tailoring”
+
+On first launch we measure the device’s screen-corner radius. UI corners are then matched to the hardware’s physical curvature, producing icons that feel naturally at home on that specific device.
+
+---
+
+## License
+
+This project is released under the MIT License.
+
+Please observe all license terms when using any content contained herein.
+
+[MIT License text](./LICENSE.md)
+
+[Original MIT License](https://mit-license.org/)
