@@ -1,1 +1,3 @@
 ### Dinety Color Grading Standard
+
+---
